@@ -1,0 +1,35 @@
+{
+  "name": "tax-compliance-calculator",
+  "version": "1.0.0",
+  "description": "A complete workflow tool that generates accurate tax calculations, compliance reports, and filing checklists for freelancers and small businesses. Handles multi-jurisdiction tax rules, deduction categorization, quarterly estimated tax, and generates audit-ready documentation. Built with AI by Craftpipe",
+  "main": "index.js",
+  "bin": {
+    "tax-compliance-calculator": "index.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "tax",
+    "compliance",
+    "calculator",
+    "freelancer",
+    "small-business",
+    "deductions",
+    "filing",
+    "audit"
+  ],
+  "author": "Craftpipe <support@heijnesdigital.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "*",
+    "csv-parse": "*",
+    "csv-stringify": "*"
+  },
+  "devDependencies": {
+    "vitest": "*",
+    "@vitest/coverage-v8": "*"
+  }
+}
